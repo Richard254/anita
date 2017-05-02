@@ -1,0 +1,211 @@
+#logo{
+  margin-top: 50px;
+}
+
+#slogan{
+  font-family: serif;
+  text-align: center;
+  color: white;
+}
+
+#meals-header{
+  padding-bottom: 50px;
+}
+/*Set height if happy-party section to 210 pixels*/
+#happy-party{
+  height: 210px;
+}
+/*Set height if happy and party sections to half of entire section and center text*/
+#happy{
+  height: 105px;
+  text-align: center;
+}
+#party{
+  background-color: #F15A29; /*set background color to orange*/
+  height: 105px;
+  text-align: center;
+}
+
+#breakfast{
+  background-image: url("../assets/foodtop/breakfast.jpg");
+}
+#lunch{
+  background-image: url("../assets/foodtop/lunch.jpg");
+}
+#dinner{
+  background-image: url("../assets/foodtop/dinner.jpg");
+}
+
+#breakfast,
+#dinner,
+#lunch {
+  color: white;
+  background-repeat: no-repeat;
+  height: 210px;
+  text-align: center;
+}
+
+/*Hover effect on header images*/
+#breakfast:hover,
+#dinner:hover,
+#lunch:hover {
+  color: #000;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+#breakfast:hover p,
+#dinner:hover p,
+#lunch:hover p,
+{
+  color: black;
+  opacity: 1;
+}
+/*End of hover effect on header images*/
+
+/*Set position of breakfast, lunch and dinner labels to half-way down the rectangular section*/
+.meal-labels{
+  padding-top: 105px;
+}
+
+#menu-images{
+  display: flex;
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+#tab-menus{
+  background-color: white;
+}
+
+/*Set background color to orange*/
+.tab-content p{
+  color: #F15A29;
+}
+
+#fast-food{
+  padding: 30px;
+}
+#drinks{
+  padding: 30px;
+}
+#foodndrinksmidsection{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*Beginning of subscription section*/
+#subscribe{
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscribe input {
+  margin-right: 30px;
+  opacity: 0.4;
+  width: 350px;
+}
+#subscribe button {
+  width: 170px;
+  background-color: #F15A29;
+  color: white;
+}
+/*End of subscription section*/
+
+footer{
+  background-color: #F15A29;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+#fast-food-pics{
+  border-color: white;
+  border-style: solid;
+  box-shadow: 0px 0px 20px #000000;
+  padding: 5px;
+  margin-bottom: 40px;
+  width: auto;
+  height: auto;
+
+}
+#drinks-pics{
+  border-color: white;
+  border-style: solid;
+  box-shadow: 0px 0px 20px #000000;
+  padding: 5px;
+  margin-bottom: 40px;
+  width: auto;
+  height: auto;
+}
+
+#menu-images{
+  background-color: white;
+}
+.row{
+  text-align: center;
+}
+
+header{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-image: url("../assets/backgrounds/landing.jpg");
+  text-align: center;
+}
+
+
+/*align list items side-by-side*/
+ul li {
+  display: inline;
+}
+
+/*Custom tag to set background color to orange*/
+or {
+  color: #F15A29;
+}
+
+#main-section{
+  display: flex;
+  box-shadow: 0 0 20px 3px #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#customers {
+  padding-right: 50px;
+  border-right: 2px solid #eee;
+}
+
+#customers li {
+  margin: 10px;
+}
+
+#about {
+  padding-left: 50px;
+  flex-shrink: 3;
+  line-height: 2;
+}
